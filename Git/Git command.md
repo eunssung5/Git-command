@@ -6,21 +6,21 @@
 
 ### 0. init
 
-- git init
+- `git init`
 
-- ',git/' 폴더를 생성해 준다.
+- `.git/` 폴더를 생성해 준다.
 
 <img src="Git command.assets/image-20201229151517382.png" alt="image-20201229151517382" style="zoom:150%;" />
 
-- .git 폴더가 생성된 경우 오른쪽에 master라는 표시가 나온다.
+- `.git` 폴더가 생성된 경우 오른쪽에 `master`라는 표시가 나온다.
 - 최초에 한번만 하면 된다.
 
 
 
 ### 1.add
 
-- git add  <추가하고 싶은 파일>
-  - git add . : 현재 폴더의 모든 파일과 폴더를 add
+- `git add  <추가하고 싶은 파일>`
+  - `git add . `: 현재 폴더의 모든 파일과 폴더를 add
 - working directory => staging area로 파일 이동
 
 
@@ -29,7 +29,7 @@
 
 - `git config --global user.email "eunssung5@gmail.com"`
   - 이메일의 경우 깃헙에 올릴경우 잔디가 심어지는 기준이므로 정확하게 입력!
-- git config ----global user.name
+- `git config ----global user.name "eunssung5"`
 - 최초에 한번만 하면된다.
 
 
@@ -45,13 +45,14 @@
 
 ### 4. remote
 
-- git remote 
+- `git remote add origin <주소>`
+- 원격 저장소와 현재 로컬 저장소를 연결.
 
 
 
 ### 5. push
 
-- git push origin master
+- `git push origin master`
 - 깃아 올려줘 origin으로 master를
 - 원격저장소에 로컬 저장소의 데이터를 전송
 
@@ -59,6 +60,10 @@
 
 ### 6. status
 
-- git status
+- `git status`
 - 현재 git 상태를 출력
+
+
+
+all . 한후 add commit push 순으로 해야 문제없이 출력
 
