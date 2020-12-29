@@ -68,3 +68,10 @@
 
 - 순서 - all . 한후 add commit remote push 순으로 해야 문제없이 출력
 
+
+
+### rm -rf.git
+
+- rm - remove => 지워줘
+
+- r - recursive => 내부의 폴더들도 다같이
