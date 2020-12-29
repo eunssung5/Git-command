@@ -66,5 +66,5 @@
 
 
 
-all . 한후 add commit remote push 순으로 해야 문제없이 출력
+- 순서 - all . 한후 add commit remote push 순으로 해야 문제없이 출력
 
