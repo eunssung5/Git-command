@@ -75,3 +75,13 @@
 - rm - remove => 지워줘
 
 - r - recursive => 내부의 폴더들도 다같이
+
+
+
+### 7. Pull
+
+- git pull origin master
+- 깃텁에 올린것을 마스터로 가져온다.
+- push와 반대.
+- clone은 전체파일을 다운로드 받는 최초 처음에만 사용함
+- pull은 내가 없는 커밋을 다운로드
